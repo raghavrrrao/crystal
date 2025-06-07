@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Crystal</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-white">
+    <section class="container-fluid bg-white">
+        <section class="row">
+            <section class="navigation col-md-12 bg-white ">
+                <nav class="navbar navbar-white pe-0 pe-lg-5 ps-0 ps-lg-5 ">
+                    <a class="navbar-brand me-0" href="index.html">
+
+                        <p class="logo-name pt-3">
+                            <img src="images/logo.jpg" width="10%" class="img-fluid" alt="">
+                            Crystal
+                        </p>
+                    </a>
+                    <button class="navbar-toggler" type="button" id="toggleSidebar" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </section>
+            <!-- Sidebar -->
+            <div id="sidebar" class="bg-white text-dark text-end p-5 pt-3">
+                <button id="closeSidebar" class="border-0 text-dark bg-white  fontSize24">X</button>
+                <ul class="list-unstyled p-3 text-start lineHeight">
+                    <li><a href="#services" class="text-dark text-decoration-none fontSize20 link">Services</a></li>
+                    <li><a class=" text-dark text-decoration-none fontSize20 link" href="#features">Features</a></li>
+                    <li><a href="#team" class="text-dark text-decoration-none fontSize20 link">Team</a></li>
+                    <li><a href="#clients" class="text-dark text-decoration-none fontSize20 link">Clients</a></li>
+                    <li><a href="#contact" class="text-dark text-decoration-none fontSize20 link">Contact Us</a></li>
+                    <!-- <li><a class=" text-decoration-none fontPoppinsRegular textOrange fs-4" href="#demo">DEMO</a></li> -->
+                </ul>
+            </div>
+
+            <section class="col-md-5 mb-5 pe-0 pe-lg-5 ps-0   ">
+                <!-- <section>
+                    <img class="img-fluid" src="images/firstImage.png" loading="eager" alt="">
+                </section>
+                <p class=" fontPoppinsRegular fontSize13 mt-3">Leading Opthalmic EMR System <br> <span class="textOrange">Since 1997</span> </p> -->
+                <div class="mobile-outline">
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <img src="images/corousel-1.jpg" alt="Slide 1" class="carousel-slide">
+                            <img src="images/corousel-2.jpg" alt="Slide 2" class="carousel-slide">
+                            <img src="images/corousel-3.jpg" alt="Slide 3" class="carousel-slide">
+                            <img src="images/corousel-4.jpg" alt="Slide 4" class="carousel-slide">
+                            <img src="images/corousel-5.jpg" alt="Slide 5" class="carousel-slide">
+                            <img src="images/corousel-6.jpg" alt="Slide 6" class="carousel-slide">
+                            <img src="images/corousel-7.jpg" alt="Slide 7" class="carousel-slide">
+                            <img src="images/corousel-8.jpg" alt="Slide 8" class="carousel-slide">
+                            <img src="images/corousel-9.jpg" alt="Slide 9" class="carousel-slide">
+
+                        </div>
+                    </div>
+                    <button class="carousel-button prev">‹</button>
+                    <button class="carousel-button next">›</button>
+                </div>
+                <p class="text-center text-lg-end fontPoppinsRegular fontSize13  pe-0 pt-3 clear-both">Leading
+                    Opthalmic EMR System <br> <span class="textOrange">Since 1997</span> </p>
+            </section>
+
+
+            <section class="col-md-7 bg-white borderLeft mb-5   ps-0 ps-lg-5">
+                <section class="row">
+                    <section class="col-md-12 d-none d-lg-block">
+                        <section class="text marginTop26">
+                            <p>
+                                <!-- <span class="word word2 pt-1">ENHANCED&nbsp;&nbsp;&nbsp;&nbsp;WORKFLOW</span>
+                                <span class="word word2 pt-1">BETTER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTEGRATION</span>
+                                <span class="word word2 pt-1">INCREASED&nbsp;&nbsp;&nbsp;&nbsp;EFFICIENCY</span>
+                                <span class="word word2 pt-1">REDUCED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ERRORS</span>
+                                <span class="word word2 pt-1">IMPROVED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMPLIANCE</span> -->
+                                <span
+                                    class="word word2 pt-1">ANDROID&nbsp;&nbsp;BASED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APPLICATION</span>
+                                <span
+                                    class="word word2 pt-1">MULTIBRANCH&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MULTICONSULTANT&nbsp;&nbsp;&nbsp;MODULAR&nbsp;&nbsp;&nbsp;ACCESS</span>
+                                <span
+                                    class="word word2 pt-1">CUSTOMIZABLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INPUTS</span>
+                                <span
+                                    class="word word2 pt-1">CUSTOMIZABLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OUTPUTS</span>
+
+                                <span
+                                    class="word word2 pt-1">OT&nbsp;-&nbsp;BASED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INVENTORY</span>
+                                <span
+                                    class="word word2 pt-1">FOLLOWUP&nbsp;&nbsp;TASK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REMINDERS</span>
+                                <span
+                                    class="word word2 pt-1">INBUILT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DASHBOARD</span>
+                                <span
+                                    class="word word2 pt-1">SURGERY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIST</span>
+                                <span
+                                    class="word word2 pt-1">APPOINTMENTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODULE</span>
+
+                            </p>
+                        </section>
+                    </section>
+                    <section class="col-md-12 marginTop302 mb-4 ps-0 pe-0 pe-lg-5 ">
+                        <p
+                            class="fontPoppinsRegular text-center text-lg-start fontSize30 mt-3 pe-0 pe-lg-5 ps-0 ps-lg-0">
+                            Empowering
+                            Opthalmic Community <br>
+                            <span class="textOrange">Since 1997</span>
+                        </p>
+                    </section>
+                    <!-- <section class="row g-2">
+                        <section class="col-md-6 ">
+                            <section class="commonBox bg-color1 text-center p-4">
+                                <p class="fs-1 text-center mb-0">
+                                    <b class="textOrange">120</b>
+                                <p>CLINICS</p>
+                                </p>
+                            </section>
+                        </section>
+                        <section class="col-md-6 ">
+                            <section class="commonBox bg-color1 text-center p-4">
+                                <p class="fs-1 text-center mb-0">
+                                    <b class="textOrange">16</b>
+                                <p>CITIES</p>
+                                </p>
+                            </section>
+                        </section>
+                        <section class="col-md-9 offset-3  ms-0 ps-5">
+                            <section class="commonBox text-center bg-color1 p-5 m-auto">
+                                <p class="fs-1 text-center mb-0">
+                                    <b class="textOrange">4</b>
+                                <p>STATES</p>
+                                </p>
+                            </section>
+                        </section>
+                    </section> -->
+                    <section class="col-md-12 position-relative marginBottom133 ">
+                        <div class="circle circle--one">
+                            <span class="circle-text"><b class="fs-1 text-white">32</b> <br> Cities</span>
+                        </div>
+                        <div class="circle circle--two">
+                            <span class="circle-text"><b class="fs-1 text-white">150</b> <br> Clinics </span>
+                        </div>
+                        <div class="circle circle--three">
+                            <span class="circle-text"><b class="fs-1 text-white">6</b> <br> States</span>
+                        </div>
+                    </section>
+
+
+                    <!-- <section class="col-md-12 mt-5">
+                        <button class="p-3 btnBorderOrange">Book a Demo</button>
+                    </section> -->
+                </section>
+            </section>
+
+
+            <section class="col-md-12 mb-5 bg-white " id="services">
+                <section class="row">
+                    <section class="col-md-12 ">
+                        <p
+                            class="text-center text-lg-start fontPoppinsBold fontSize46 ms-5 ms-lg-5 comfortLightBlue me-5">
+                            Why <span class="textOrange">Crystal</span>?
+                        </p>
+                    </section>
+                    <section class="col-md-6">
+                        <section class="text-start text-lg-start ms-lg-5">
+                            <!-- <h1 class="text-center text-lg-start ms-lg-5"><b>Founded on trust. <br />
+                                    Focused on <br /> relationships.
+                                </b></h1> -->
+
+                            <p class="text-start text-lg-start ms-lg-5">
+                            <ul>
+                                <li>Time-tested record of seamless data exchange between satellite and main centers.
+                                </li>
+                                <!-- <li><b>No limit on data size.</b></li> -->
+                                <li><b>No limit on users.</b></li>
+                                <li>SMS and WhatsApp enabled.</li>
+                                <li>Patient live tracking in OPD is possible.</li>
+                                <li>NABH-oriented, time-based reports.</li>
+                                <li>User-level tracking of data input.</li>
+                                <li>Easy scanning of past documents and quick attachment to patient records.</li>
+                            </ul>
+
+                            </p>
+                        </section>
+                    </section>
+                    <section class="col-md-6 ">
+                        <section class="text-start text-lg-start me-lg-5">
+                            <p class="text-start text-lg-start me-lg-5">
+                            <ul>
+                                <li>User-level modular access control.</li>
+                                <li><b>Time-tested service support available 24/7/365.</b></li>
+                                <li>Android-based patient data entry.</li>
+                                <li>Windows-based MIS reports with pre-op and post-op comparison options.</li>
+                                <li>Regular updates offered to users at no extra cost.</li>
+                                <li>Efficient and time-tested task follow-up module.</li>
+                                <li>UID interface to reduce user-level errors while registering patients.</li>
+                            </ul>
+                            </p>
+                            <!-- <p >For All features,</p>    -->
+
+
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="col-md-12 mb-5 p-5 pt-0 bg-white " id="features">
+                <section class="row g-4">
+                    <section class="col-md-12 ">
+                        <p class="text-center text-lg-start fontPoppinsBold fontSize46 ms-4 comfortLightBlue me-5">
+                            Key <span class="textOrange">Features</span>
+                        </p>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Pure Android</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Multibranch</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3  ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Multiconsultant</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Customised output</p>
+                        </section>
+                    </section>
+
+                    <section class="col-md-4 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Customised input forms as <br> per practice</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4">
+                        <section class="smallBox1 d-none d-lg-block pt-5 bg-5">
+                            <p class="fontPoppinsBold fs-4 pt-2">
+                                <a href="#" id="viewFeaturesBtn" class="text-decoration-none text-black">Click to View
+                                    All Features</a>
+                            </p>
+                        </section>
+                        <section class="smallBox2 d-block d-lg-none pt-5 bg-5">
+                            <p class="fontPoppinsBold fs-4 pt-2">
+                                <a href="images/Crystal Features.pdf" target="_blank" class="text-decoration-none text-black">Click to View
+                                    All Features</a>
+                            </p>
+                        </section>
+                    </section>
+                    
+                    <section class="col-md-4 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Follow up tracking facility</p>
+                        </section>
+                    </section>
+
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Drug database of over <br> 1 lakh</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Regional language - <br> drug instructions</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4">Customisable <br> drug presets</p>
+                        </section>
+                    </section>
+                    <section class="col-md-3 ">
+                        <section class="smallBox pt-5">
+                            <p class="fontPoppinsRegular fs-4 pt-1">Cloud version available</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="col-md-12 mb-5 ps-5 pe-5 " id="team">
+                <section class="row g-4">
+                    <section class="col-md-12 ">
+                        <p class="text-center text-lg-start fontPoppinsBold fontSize46 ms-4 comfortLightBlue me-5">
+                            Our<span class="textOrange"> Team</span>
+                        </p>
+                    </section>
+                    <section class="col-md-3  text-center">
+                        <section class="box pt-5 pb-5 ">
+                            <section class="imageOuter m-auto position-relative  bg-white ">
+                                <img class="img-fluidManual rounded-3" src="images/parasMehta.jpg" alt="">
+                            </section>
+                            <article class="mt-3">
+                                <h5>Dr. Paras Mehta</h5>
+                            </article>
+                            <article class="mt-2">
+                                <p class="textOrangeRed fontPoppinsBold">
+                                    Concept, Design, Coding
+                                </p>
+                            </article>
+                            <!-- <article>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione nostrum
+                                    animi explicabo corporis voluptatem, hic similique nam?</p>
+                            </article>
+                            <article>
+                                <p><i class="bi bi-facebook fs-3 textOrange"></i> <i
+                                        class="bi bi-twitter ms-3  fs-3 textOrange"> <i
+                                            class="bi bi-instagram ms-3  fs-3 textOrange"></i></i> </p>
+                            </article> -->
+                        </section>
+                    </section>
+
+                    <section class="col-md-3 text-center">
+                        <section class="box pt-5 pb-4  ">
+                            <section class="imageOuter m-auto position-relative  bg-white ">
+                                <img class="img-fluidManual rounded-3" src="images/shailendraGandhi.jpg" alt="">
+                            </section>
+                            <article class="mt-3">
+                                <h5>Shailendra Gandhi</h5>
+                            </article>
+                            <article class="mt-1">
+                                <p class="textOrangeRed fontPoppinsBold">
+                                    Hardware, Networking, Business Processes
+                                </p>
+                            </article>
+                            <!-- <article>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione nostrum
+                                    animi explicabo corporis voluptatem, hic similique nam?</p>
+                            </article>
+                            <article>
+                                <p><i class="bi bi-facebook fs-3 textOrange"></i> <i
+                                        class="bi bi-twitter ms-3  fs-3 textOrange"> <i
+                                            class="bi bi-instagram ms-3  fs-3 textOrange"></i></i> </p>
+                            </article> -->
+                        </section>
+                    </section>
+
+                    <section class="col-md-3  text-center">
+                        <section class="box pt-5 pb-4  ">
+                            <section class="imageOuter m-auto position-relative  bg-white">
+                                <img class="img-fluidManual rounded-3"  src="images/balajiRao.png" alt="">
+                            </section>
+                            <article class="mt-3">
+                                <h5>Balaji Rao</h5>
+                            </article>
+                            <article class="mt-2">
+                                <p class="textOrangeRed fontPoppinsBold">Customization, Training, Implementation</p>
+                            </article>
+                            <!-- <article>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione nostrum
+                                    animi explicabo corporis voluptatem, hic similique nam?</p>
+                            </article>
+                            <article>
+                                <p><i class="bi bi-facebook fs-3 textOrange"></i> <i
+                                        class="bi bi-twitter ms-3  fs-3 textOrange"> <i
+                                            class="bi bi-instagram ms-3  fs-3 textOrange"></i></i> </p>
+                            </article> -->
+                        </section>
+                    </section>
+
+                    <section class="col-md-3  text-center">
+                        <section class="box pt-5 pb-5 ">
+                            <section class="imageOuter m-auto position-relative  bg-white ">
+                                <img class="img-fluidManual rounded-3" src="images/rishabhDesai.jpeg" alt="">
+                            </section>
+                            <article class="mt-3">
+                                <h5>Rishabh Desai</h5>
+                            </article>
+                            <article class="mt-2">
+                                <p class="textOrangeRed fontPoppinsBold">Training/Service Support</p>
+                            </article>
+                            <!-- <article>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione nostrum
+                                    animi explicabo corporis voluptatem, hic similique nam?</p>
+                            </article>
+                            <article>
+                                <p><i class="bi bi-facebook fs-3 textOrange"></i> <i
+                                        class="bi bi-twitter ms-3  fs-3 textOrange"> <i
+                                            class="bi bi-instagram ms-3  fs-3 textOrange"></i></i> </p>
+                            </article> -->
+                        </section>
+                    </section>
+
+                </section>
+            </section>
+
+
+            <!-- <section class="col-md-12 mb-5 ps-5 pe-5 " id="clients">
+                <section class="row">
+                    <section class="col-md-12 ps-5">
+                        <p class="text-center text-lg-start fontPoppinsBold fontSize46 ms-4 comfortLightBlue me-5">
+                            Our<span class="textOrange"> Clients</span>
+                        </p>
+                    </section>
+
+                    <div class="col-md-12 text-center bg-white text-black mb-5 pt-4 pb-4 bordercolor">
+                        <ul class="nav nav-pills justify-content-center mb-4" id="locationTabs">
+                           
+                        </ul>
+                        <div class="col-md-12 text-dark">
+                            <div class="row">
+                                <div class="tab-content col-md-12 pt-4" id="locationTabsContent">
+                                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section> -->
+
+            <section class="col-md-12  ps-0 pe-0 pe-lg-5 ps-lg-5 mb-5 " id="clients">
+                <section class="col-md-12 ps-0 ps-lg-5">
+                    <p class="text-center text-lg-start fontPoppinsBold fontSize46 ms-4 comfortLightBlue me-5">
+                        Our<span class="textOrange"> Clients</span>
+                    </p>
+                </section>
+                <div class="input-group ps-0 ps-lg-5 fontPoppinsRegular">
+
+                    <span class="input-group-addon fs-2">Filter</span>
+                    <input id="filter" type="text" class="form-control" placeholder="Type minimum 3 chars here..." />
+                </div>
+                <table id="clinicsTable">
+                    <thead>
+                        <tr>
+                            <th>Location</th>
+                            <th>Doctor</th>
+                            <th>Clinic</th>
+                            <th class="hide-area">Area</th>
+                            <!-- <th class="hide-area">Branches</th> -->
+                        </tr>
+                    </thead>
+
+                    <tbody class="searchable">
+                        <!-- Dynamic rows will be injected here   -->
+                    </tbody>
+                </table>
+            </section>
+
+
+            <section class="col-md-12 mb-5 pe-5 ps-5 " id="contact">
+                <section class="row g-4">
+                    <section class="col-md-12 ">
+                        <p class="text-center  fontPoppinsBold fontSize46 ms-4 comfortLightBlue me-5">
+                            Contact<span class="textOrange"> Us</span>
+                        </p>
+                    </section>
+                    <section class="col-md-3  text-center">
+                        <section class="bg-color1 contact-box text-black ">
+                            <!-- <button
+                                class="copyButton border-none fontPoppinsRegular fontSize16 border-0 bg-color1 text-black">CLICK
+                                TO COPY</button>
+                            <p class="copyTarget fontPoppinsBold fontSize25" data-copy-target="vbalag@hotmail.com">
+                                vbalag@hotmail.com</p> -->
+
+                            <p class="pt-5">
+                                <a href="mailto:vbalag@hotmail.com" class="text-black">vbalag@hotmail.com</a>
+                            </p>
+                        </section>
+                    </section>
+                    <section class="col-md-3  text-center">
+                        <section class="bg-color1 contact-box text-black pt-5 pb-5 pe-2 ps-2">
+                            <!-- <button
+                                class="copyButton border-none fontPoppinsRegular fontSize16 border-0 bg-color1 text-black">CLICK
+                                TO COPY</button>
+                            <p class="copyTarget fontPoppinsBold fontSize25" data-copy-target="shailendrag@hotmail.com">
+                                shailendrag@hotmail.com</p> -->
+
+                            <p><a href="mailto:shailendrag@hotmail.com" class="text-black">shailendrag@hotmail.com</a>
+                            </p>
+                        </section>
+                    </section>
+                    <section class="col-md-3  text-center">
+                        <section class="bg-color1 contact-box text-black pt-5 pb-4 pe-2 ps-2">
+                            <button
+                                class="copyButton border-none fontPoppinsRegular fontSize16 border-0 bg-color1 text-black">CLICK
+                                TO COPY</button>
+                            <p class="copyTarget fontPoppinsBold fontSize25" data-copy-target="99204 77946">99204 77946
+                            </p>
+                        </section>
+                    </section>
+                    <section class="col-md-3  text-center">
+                        <section class="bg-color1 contact-box text-black pt-5 pb-5 pe-2 ps-2">
+                            <button
+                                class="copyButton border-none fontPoppinsRegular fontSize16 border-0 bg-color1 text-black">CLICK
+                                TO COPY</button>
+                            <p class="copyTarget fontPoppinsBold fontSize25" data-copy-target="98202 38886">98202 38886
+                            </p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+
+            <!-- <section class="col-md-12 text-center mt-5 mb-5 " id="demo">
+                <article class="display-2  firstText">
+                    <b><span class="fontPoppinsRegular">Ready for your  Digital Success?</span></b>
+                    
+                </article>
+                <article class="mt-5">
+                    <p>Book your Demo Now!</p>
+                </article>
+                <article class="mt-5">
+                    <button class="btnBorderOrange p-3">Click Me!</button>
+                </article>
+            </section> -->
+
+            <!-- Popup Form -->
+            <!-- <div id="popupForm" class="popup-form d-none" >
+                <div class="form-container m-auto">
+                    <h3>Enter Your Details</h3>
+                    <form id="userForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="text" id="mobile" name="mobile" required pattern="\d{10}" />
+
+                        <label for="email">Email ID:</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <button type="submit" class="btnSubmit">Submit</button>
+                    </form>
+                    <button id="closeFormBtn">Close</button>
+                </div>
+            </div> -->
+
+            <section class="col-md-12 footer-bg ">
+                <section class="row">
+                    <section class="col-12 text-center">
+                        <section class="footer-text-1">
+                            Copyright: Crystal 2024
+                        </section>
+                    </section>
+
+                    <!-- <section class="col-6">
+                        <section class="footer-text-2">
+                            Follow us: <img class="ms-3" src="images/X-twitter.svg" alt=""> <img class="ms-3"
+                                src="images/facebook.svg" alt="">
+                        </section>
+                    </section> -->
+                </section>
+            </section>
+
+        </section>
+    </section>
+
+    <div class="modal fade" id="featuresModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">All Features</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- This is where your slideshow will appear -->
+                    <div id="slideshow-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this is code for creating back to to arrow -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/moduleContainer.js" type="module"></script>
+</body>
+
+</html>
