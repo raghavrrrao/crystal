@@ -30,6 +30,7 @@ export let eyeClinicsData = [
             { doctor: "Dr Hitendra Mehta", clinic: "Infinity Eye Care", area: "Forejet Street" },
             { doctor: "Dr Zain Khatib", clinic: "Khatib Eye Clinic", area: "Byculla" },
             { doctor: "Dr Zain Khatib", clinic: "Khatib Eye Clinic", area: "Charni Road" },
+            { doctor: "Dr Rajul Parikh", clinic: "Shreeji Eye Care Pvt Ltd", area: "Andheri" },
             { doctor: "Dr Donald Lobo", clinic: "Lobo Eye Clinic", area: "Chembur" },
             { doctor: "Dr V C Mehta", clinic: "Mehta Eye Clinic", area: "Ghatkopar" },
             { doctor: "Dr Nikunj Shah", clinic: "The Eye Super Speciality", area: "Ghatkopar" },
